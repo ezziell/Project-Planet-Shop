@@ -20,7 +20,7 @@ const ShoppingChart = () => {
                 <div className='navbar-config'>
                     <NavConfig />
                 </div>
-                <div className='shopping-chart'>
+                <div className='shopping-chart1'>
                     <h3>Mi carrito</h3>
                     <div className='imported-chart'>
                         <Chart />

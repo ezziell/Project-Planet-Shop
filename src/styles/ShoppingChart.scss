@@ -10,7 +10,7 @@ body{
     flex-direction: row;
     justify-content: center;
 }
-.shopping-chart{
+.shopping-chart1{
     background-color: var(--bgprimary);
     height: 780px;
     position: relative;
@@ -21,7 +21,7 @@ body{
 .order-products-chart{
     width: 580px;
 }
-.shopping-chart h3{
+.shopping-chart1 h3{
     color: var(--brown);
     font-size: 2rem;
     position: relative;
@@ -38,6 +38,11 @@ hr{
     background-color: rgb(182, 182, 182);
     height: 1px;
     border: 0ch;
+}
+.shopping-total-chart{
+    background-color: var(--bgprimary);
+    position: absolute;
+    bottom: 100px;
 }
 .shopping-total-chart span{
     font-size: 1.1rem;

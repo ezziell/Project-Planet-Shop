@@ -20,7 +20,7 @@ const ProductList = () => {
                 <div className='space'>
                     <header>
                         <h1>Nuestros productos</h1>
-                        <p>Cruelty free y hechos con cariño para ustedes</p>
+                        <p>Con tu compra ayudás al medioambiente</p>
                     </header>
                     <ul>
                         <li>PLANTAS</li>

@@ -1,0 +1,133 @@
+@import "vars";
+body{
+    background-color: #ebe6df;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 62.5%;
+}
+.config-container{
+    display: flex;
+    justify-content: center;
+}
+.nav{
+    position: relative;
+    left: 8px;
+}
+.bar-right{
+    background-color: #d6cfc5;
+    height: 780px;
+    width: 900px;
+}
+.bar-right header{
+    margin-top: 102px;
+    margin-left: 28px;
+    width: 868px;
+}
+.border{
+    position: relative;
+    bottom: 90px;
+}
+.bar-right p{
+    color: var(--brown);
+    font-size: 2.3rem;
+    margin-left: 28px;
+    font-weight: bold;
+}
+.bar-right figure img{
+    background-color: gray;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    right: 22px;
+    position: relative;
+    bottom: 48px;
+    object-fit: cover;
+}
+.bar-right header button{
+    display: inline-block;
+    background-color: var(--green);
+    border-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--white);
+    font-size: 1.2rem;
+    margin-right: 22px;
+    height: 42px;
+    width: 136px;
+    border-radius: 18px;
+    position: relative;
+    bottom: 108px;
+    left: 242px;
+    cursor: pointer;
+}
+.bar-right header button:nth-child(4){
+    background-color: rgb(204, 78, 78);
+}
+.bar-right figure, 
+.bar-right button{
+    display: inline-block;
+}
+.bar-right .form{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+    position: relative;
+    bottom: 108px;
+    margin-left: 28px;
+    bottom: 88px;
+}
+.bar-right .form label:nth-child(3),
+.bar-right .form input:nth-child(4){
+    width: 312px;
+    margin-left: 500px;
+    position: relative;
+    bottom: 71px;
+}
+.bar-right .form label{
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--brown);
+    margin-bottom: 4px;
+}
+.bar-right .form input{
+    border-style: none;
+    width: 412px;
+    height: 32px;
+    margin-bottom: 12px;
+    border-radius: 12px;
+}
+.bar-right .form label:nth-child(5),
+.bar-right .form input:nth-child(6),
+.bar-right .form label:nth-child(7),
+.bar-right .form input:nth-child(8){
+position: relative;
+bottom: 64px;
+}
+.bar-right input:nth-child(8){
+    height: 98px;
+}
+.bar-right .edit{
+    background-color: var(--brown);
+    border-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--white);
+    font-size: 1.2rem;
+    height: 46px;
+    width: 136px;
+    border-radius: 18px;
+    position: relative;
+    bottom: 122px;
+    left: 682px;
+    cursor: pointer;
+}
+.bar-right input::placeholder{
+    position: relative;
+    left: 4px;
+    color: var(--brown);
+}
+.submit{
+    position: relative;
+    bottom: 22px;
+}
+.nav{
+    margin-right: 8px;
+    position: relative;
+    bottom: 12px;
+}

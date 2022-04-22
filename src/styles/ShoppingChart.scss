@@ -1,0 +1,107 @@
+@import "vars";
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 62.5%;
+    background-color: var(--bgcolor);
+}
+.shopping-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.shopping-chart{
+    background-color: var(--bgprimary);
+    height: 780px;
+    position: relative;
+    top: 12px;
+    width: 900px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.order-products-chart{
+    width: 580px;
+}
+.shopping-chart h3{
+    color: var(--brown);
+    font-size: 2rem;
+    position: relative;
+    top: 8px;
+    left: 22px;
+}
+.products-container-chart{
+    height: 432px;
+    background-color: var(--bgprimary);
+    overflow-y: scroll;
+    font-size: 2rem;
+}
+hr{
+    background-color: rgb(182, 182, 182);
+    height: 1px;
+    border: 0ch;
+}
+.shopping-total-chart span{
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+.shopping-total-chart span:nth-child(1),
+.shopping-total-chart span:nth-child(4) {
+    color: var(--grey);
+    position: relative;
+}
+.shopping-total-chart span:nth-child(1){
+    right: 530px;
+    top: 6px;
+}
+.shopping-total-chart span:nth-child(4){
+    right: 407px;
+    bottom: 18px;
+}
+.shopping-total-chart span:nth-child(2),
+.shopping-total-chart span:nth-child(5){
+    color: var(--brown);
+    font-weight: 800
+}
+.shopping-total-chart span:nth-child(2){
+    position: relative;
+    bottom: 26px;
+    left: 788px;
+}
+.shopping-total-chart span:nth-child(5){
+    position: relative;
+    left: 777px;
+    width: 100px;
+    bottom: 45px;
+}
+.shopping-total-chart span:nth-child(7), 
+.shopping-total-chart span:nth-child(8){
+    color: var(--brown);
+    display: inline;
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+.shopping-total-chart span:nth-child(7){
+    margin-right: 100px;
+    position: relative;
+    left: 22px;
+    top: 18px;
+}
+.shopping-total-chart span:nth-child(8){
+    position: relative;
+    left: 658px;
+    top: 18px;
+}
+.order{
+    background-color: var(--green);
+    border-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3rem;
+    color: var(--bgcolor);
+    font-weight: 500;
+    height: 42px;
+    padding: 8px;
+    border-radius: 12px;
+    position: relative;
+    top: 82px;
+    left: 528px;
+    cursor: pointer;
+}

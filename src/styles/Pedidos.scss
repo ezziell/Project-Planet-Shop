@@ -1,0 +1,123 @@
+@import "vars";
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 62.5%;
+    background-color: var(--bgcolor);
+}
+.shopping-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.shopping-order{
+    background-color: var(--bgprimary);
+    height: 780px;
+    position: relative;
+    top: 12px;
+    width: 900px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.orden-date, 
+.date-day,
+.arrive,
+.arrive-day
+{
+    font-size: 1rem;
+    font-weight: 100;
+    position: relative;
+}
+ span.orden-date{
+    color: var(--grey);
+    bottom: 20px;
+    left: 2px;
+}
+span.date-day{
+    color: rgb(75, 75, 75);
+    right: 322px;
+    bottom: 43px;
+}
+span.arrive{
+    color: var(--green);
+    left: 152px;
+    bottom: 67px;
+    font-weight: bold;
+}
+span.arrive-day{
+    color: var(--green);
+    font-weight: bold;
+    bottom: 90px;
+    left: 272px;
+}
+.order-products{
+    width: 580px;
+}
+.shopping-order h3{
+    color: var(--brown);
+    font-size: 2rem;
+    position: relative;
+    top: 8px;
+    left: 22px;
+}
+hr.pre-container{
+    height: 1px;
+    position: relative;
+    bottom: 82px;
+}
+.products-container{
+    height: 532px;
+    background-color: var(--bgprimary);
+    overflow-y: scroll;
+    position: relative;
+    bottom: 82px;
+}
+hr.final{
+    background-color: rgb(182, 182, 182);
+    height: 1px;
+    position: relative;
+    bottom: 68px;
+}
+.shopping-total{
+    display: flex;
+}
+.pay-method{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--brown);
+    position: relative;
+    bottom: 74px;
+    left: 22px;
+}
+.shipping{
+    position: relative;
+    bottom: 63px;
+    line-height: 4px;
+    left: 600px;
+}
+.shipping p:nth-child(1){
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--brown);
+}
+.shipping p:nth-child(2){
+    font-size: 0.8rem;
+    color: var(--grey);
+    bottom: 1px;
+}
+.shipping p:nth-child(2),
+.shipping p:nth-child(3),
+.shipping p:nth-child(4){
+    position: relative;
+    left: 2px;
+}
+.shipping p:nth-child(3),
+.shipping p:nth-child(4),
+.shipping p:nth-child(5)
+{
+ font-size: 0.9rem;
+ color: rgb(75, 75, 75);
+ line-height: 1px;
+ top: 2px;
+}
+
+

@@ -1,0 +1,36 @@
+@import "vars";
+
+.errorcontainer{
+    margin-left: 562px;
+    margin-top: 42px;
+}
+h1{
+    font-size: 28rem;
+    color: var(--green);
+}
+.perror{
+    font-size: 1.2rem;
+    color: var(--grey);
+    position: relative;
+    bottom: 368px;
+    left: 102px;
+    width: 600px;
+}
+.botonerror{
+    background-color: var(--brown);
+    border-style: none;
+    color: var(--white);
+    font-size: 2rem;
+    padding: 12px;
+    height: 62px;
+    width: 348px;
+    border-radius: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    position: relative;
+    bottom: 346px;
+    left: 172px;
+}
+.botonerror:hover{
+    background-color: var(--green);
+}

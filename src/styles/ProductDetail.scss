@@ -1,0 +1,83 @@
+@import "vars";
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 62.5%;
+    background-color: var(--bgcolor);
+}
+.product-detail-container{
+    background-color: var(--white);
+    border-radius: 12px;
+    height: 780px;
+    width: 572px;
+    filter: drop-shadow(0 0 0.75rem rgb(209, 209, 209));
+    margin: 32px 30px 0 664px;
+}
+.detail-header{
+    text-align: start;
+    position: relative;
+    top: 52px;
+    left: 202px;
+}
+.detail-picture,
+.detail-button
+{
+    font-size: 1rem;
+    position: relative;
+    left: 270px;
+    top: 62px;
+    
+}
+.detail-category{
+    color: var(--green);
+    font-size: 2rem;
+}
+.detail-title{
+    font-size: 1.3rem;
+    color: var(--brown);
+    position: relative;
+    bottom: 28px;
+}
+.detail-price{
+    color: var(--green);
+    font-weight: 100;
+    font-size: 2rem;
+    position: relative;
+    bottom: 18px;
+}
+.detail-description{
+    color: var(--grey);
+    position: relative;
+    bottom: 18px;
+    font-size: 1rem;
+}
+.detail-picture figure img{
+    height: 400px;
+    width: 462px;
+    border-radius: 12px;
+    object-fit: cover;
+    position: relative;
+    right: 230px;
+    bottom: 22px;
+}
+.button-detail{
+    position: relative;
+    right: 142px;
+    bottom: 12px;
+}
+.button-detail button{
+    height: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 312px;
+    height: 54px;
+    background-color: var(--green);
+    border-style: none;
+    border-radius: 12px;
+    color: var(--white);
+    font-size: 1.1rem;
+    font-weight: 100;
+    cursor: pointer;
+}
+.button-detail button:hover{
+    background-color: var(--brown);
+}

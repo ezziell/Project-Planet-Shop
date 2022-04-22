@@ -1,0 +1,58 @@
+@import "vars";
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 62.5%;
+}
+section{
+    background-color: var(--white);
+    height: 488px;
+    width: 320px;
+    filter: drop-shadow(0 0 0.75rem rgb(209, 209, 209));
+    border-radius: 18px;
+    margin-right: 16px;
+    position: relative;
+    left: 12px;
+}
+section figure img{
+    width: 320px;
+    object-fit: cover;
+    height: 278px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    position: relative;
+    right: 12px;
+    bottom: 4px;
+    border-bottom: none;
+}
+section .category{
+    margin-left: 22px;
+    color: var(--grey);
+    font-size: var(--p);
+    font-weight: 100;
+    position: relative;
+}
+section .title{
+    color: var(--brown);
+    font-size: 1.2rem;
+    margin-left: 22px;
+    position: relative;
+    bottom: 2px;
+}
+section .price{
+    color: var(--brown);
+    font-size: 2rem;
+    position: relative;
+    margin-left: 22px;
+    top: 22px;
+}
+.carro img{
+ height: 62px;
+ width: 64px;
+ border-radius: 12px;
+ object-fit: cover;
+ cursor: pointer;
+ position: relative;
+ bottom: 74px;
+ left: 256px;
+}

@@ -1,0 +1,65 @@
+@import "vars";
+body{
+    background-color: #ebe6df;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 62.5%;
+    border-bottom: none;
+}
+.todo{
+    display: flex;
+    filter: drop-shadow(0 0 0.75rem rgb(224, 224, 224));
+    width: 1400x;
+    justify-content: center;
+    margin: 22px 120px 0px 120px;
+    height: 820px;
+    border-bottom: none;
+}
+.containerpic, 
+.main{
+    width: 700px;
+    height: 820px;
+    border-bottom: none;
+}
+.containerpic figure img{
+    width: 700px;
+    height: 814px;
+    object-fit: cover;
+    position: relative;
+}
+.main{
+    background-color: rgb(238, 238, 238);
+    height: 816px;
+    position: relative;
+    top: 10px;
+}
+.main article{
+    margin-left: 32px;
+    margin-top: 28px;
+}
+.main h1{
+    color: #4c3021;
+    font-size: 2.4rem;
+}
+.main p{
+    margin-top: 32px;
+    color: rgb(139, 139, 139);
+    font-size: 1rem;
+    font-weight: 100;
+    width: 400px;
+}
+form button{
+    margin-top: 42px;
+    margin-left: 32px;
+    height: 48px;
+    width: 198px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    border-radius: 18px;
+    border-style: none;
+    background-color: #4c3021;
+    cursor: pointer;
+    color: #ebe6df;
+}
+form button:hover{
+    background-color: var(--green);
+}

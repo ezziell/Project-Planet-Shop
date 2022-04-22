@@ -1,0 +1,17 @@
+@import "vars";
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 62.5%;
+}
+.products-container-chart{
+    height: 432px;
+    background-color: var(--bgprimary);
+    overflow-y: scroll;
+    font-size: 2rem;
+}
+hr{
+    background-color: rgb(182, 182, 182);
+    height: 1px;
+    border: 0ch;
+}

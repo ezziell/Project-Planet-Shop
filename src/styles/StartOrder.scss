@@ -1,0 +1,24 @@
+@import "vars";
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 62.5%;
+}
+.bar-container{
+    position: relative;
+    bottom: 842px;
+    left: 608px;
+    display: flex;
+    justify-content: center;
+    width: 800px;
+}
+
+.start-order{
+    position: relative;
+    bottom: 685px;
+    left: 526px;
+    width: 902px;
+}
+.products-container-chart{
+    height: 580px;
+}

@@ -1,0 +1,68 @@
+@import 'vars';
+
+body{
+    background-color: #ebe6df;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 62.5%;
+}
+.all-container{
+    margin: 22px 300px 0px 120px;
+    display: flex;
+    justify-content: center;
+    width: 1600px;
+    height: 0px;
+}
+.space{
+    background-color: var(--white);
+    height: 200px;
+    width: 1360px;
+}
+.space header h1{
+    font-size: var(--h1);
+    color: var(--brown);
+    margin-bottom: 52px;
+    position: relative;
+    top: 12px;
+    left: 292px;
+}
+.space header p{
+    font-size: var(--p);
+    color: var(--grey);
+    font-weight: 100;
+    position: absolute;
+    top: 162px;
+    left: 752px;
+}
+.space header{
+    margin-left: 172px;
+}
+.space ul{
+    display: flex;
+    margin-left: 252px;
+}
+.space ul li{
+    list-style: none;
+    color: var(--bgcolor);
+    background-color: var(--brown);
+    border-radius: 18px;
+    font-size: 1.2rem;
+    height: 22px;
+    width: 152px;
+    padding: 10px;
+    margin-right: 28px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 22px;
+}
+.space ul li:hover{
+    background-color: var(--green);
+}
+.ProductList{
+    margin-top: 212px;
+    position: absolute;
+    left: 122px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1600px;
+}

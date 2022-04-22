@@ -1,0 +1,40 @@
+@import "vars";
+body{
+    background-color: #ebe6df;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 62.5%;
+}
+.bar-left{
+    background-color: var(--white);
+    height: 780px;
+    width: 360px;
+}
+.bar-left h3{
+    margin-left: 32px;
+    color: var(--brown);
+    position: relative;
+    font-size: 2rem;
+    top: 8px;
+}
+.bar-left ul{
+    position: relative;
+    top: 32px;
+}
+.bar-left ul li{
+    color: var(--brown);
+    list-style: none;
+    margin-left: 8px;
+    margin-bottom: 48px;
+    font-size: 1.8rem;
+    position: relative;
+    bottom: 22px;
+}
+.bar-left ul li:hover{
+    background-color: #d6cfc5;
+    opacity: 0.6;
+    width: 172px;
+    padding: 2px;
+    height: 42px;
+    border-radius: 8px;
+    text-decoration: none;
+}

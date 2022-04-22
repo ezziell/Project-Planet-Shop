@@ -1,0 +1,50 @@
+@import "vars";
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 62.5%;
+    background-color: var(--bgprimary);
+}
+.item-container{
+    display: flex;
+    background-color: var(--white);
+    border-radius: 8px;
+    width: 642px;
+    height: 122px;
+    filter: drop-shadow(0.75rem 0 0.75rem rgb(216, 216, 216));
+    margin-bottom: 18px;
+}
+.item-image figure img{
+    height: 92px;
+    width: 92px;
+    object-fit: cover;
+    margin-left: 4px;
+    border-radius: 8px;
+}
+.item-info{
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.item-info p{
+    font-weight: 600;
+    color: var(--brown);
+    position: relative;
+    top: 8px;
+    right: 42px;
+}
+.item-info span{
+    color: var(--grey);
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+.item-info span:nth-child(2){
+    position: relative;
+    right: 60px;
+    width: 38px;
+    bottom: 6px;
+}
+.item-info span:nth-child(3){
+    position: relative;
+    bottom: 27px;
+    right: 176px;
+}

@@ -3,77 +3,33 @@
 body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 62.5%;
-    background-color: 0;
-   
 }
-.circle img{
-    height: 46px;
-    width: 46px;
-}
-.progress-container{
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    margin-bottom: 32px;
-    max-width: 100%;
-    width: 350px;
-}
-.progress-container::before{
-    content: "";
-    top: 50%;
-    background-color: var(--grey);
-    position: absolute;
-    left: 0;
-    transform: translateY(-50%);
-    height: 4px;
-    width: 100%;
-    z-index: -1;
-    transition: 0.4s ease;
-}
-.progress{
-    background-color: var(--green);
-    top: 50%;
-    position: absolute;
-    left: 0;
-    transform: translateY(-50%);
-    height: 4px;
-    z-index: -1;
-    width: 0%;
-    transition: 0.4s ease;
-}
-.circle{
-    background-color: var(--white);
-    border-radius: 50%;
-    height: 72px;
-    width: 72px;
-    border: 3px solid var(--grey);
+.form-step{
+    font-size: 1.2rem;
     display: flex;
     justify-content: center;
-    align-items: center;
-    transition: 0.4s ease;
 }
-
-.circle.active{
-    border-color: var(--green);
+.btns-group{
+    display: flex;
 }
 .btn{
-    background-color: var(--green);
+    height: 28px;
+    width: 98px;
+    text-align: center;
     color: var(--white);
-    border-radius: 18px;
-    border: 0;
+    background-color: var(--green);
+    padding: 8px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
     cursor: pointer;
-    font-family: 'Times New Roman', Times, serif;
-    padding: 8px 30px;
-    margin: 5px;
-    font-size: 1.2rem;
+    text-decoration: none;
+    transition: 0.3px;
+    margin-right: 32px;
 }
-.btn:focus {
-    outline: 0;
+.btn-back{
+    background-color: var(--brown);
 }
-.btn:active{
-    transform: scale(0.97);
-}
-.btn:disabled{
-    background-color: var(--grey);
-    cursor: not-allowed;
+.btn:hover{
+    box-shadow: 0 0 0 2px var(--white), 0 0 0 3px var(--green);
 }

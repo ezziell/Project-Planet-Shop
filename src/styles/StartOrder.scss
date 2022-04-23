@@ -4,15 +4,10 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 62.5%;
 }
-.bar-container{
-    position: relative;
-    bottom: 842px;
-    left: 608px;
-    display: flex;
-    justify-content: center;
-    width: 800px;
+.chart-container1{
+    height: 400px;
+    max-width: 400px;
 }
-
 .start-order{
     position: relative;
     bottom: 685px;
@@ -20,5 +15,5 @@ body{
     width: 902px;
 }
 .products-container-chart{
-    height: 580px;
+    height: 612px;
 }

@@ -7,9 +7,6 @@ const SendOrder = () => {
     return(
         <body>
             <OrderBackround />
-            <div className='bar-container'>
-             <ProgressBar />   
-            </div>
             <div className='formulario-envio'>
             <form action='/'>
                 <label for="name">Nombre</label>

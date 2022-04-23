@@ -8,13 +8,15 @@ import { Link } from 'react-router-dom';
 const StartOrder = () => {
     return(
         <body>
+            <div className='start-order-container'>
         <OrderBackround />
-        <div className='bar-container'>
-            <ProgressBar />
-        </div>
-        <div className='start-order'>
+        <div className='chart-container1'>
+         <div className='start-order'>
             <Chart />
-        </div>
+        </div>   
+        </div>   
+            </div>
+        
         </body>
     );
 }

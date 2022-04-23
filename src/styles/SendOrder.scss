@@ -5,3 +5,17 @@ body{
     font-size: 62.5%;
    
 }
+.formulario-envio{
+    position: relative;
+    bottom: 262px;
+    left: 632px;
+    display: inline;
+}
+.formulario-envio form{
+width: 600px;
+max-width: 600px;
+}
+.formulario-envio input{
+    width: 222px;
+    height: 32px;
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Chart from '../components/Chart';
 import NavConfig from '../components/NavConfig';
 import OrderItem from '../components/OrderItem';
@@ -35,7 +36,9 @@ const ShoppingChart = () => {
                  <hr />
                  <span>Total</span>
                  <span>$556</span>
-                 <button type='submit' className='order'>Ordenar pedido</button>
+                 <Link to="/StartOrder">
+                    <button type='submit' className='order'>Ordenar pedido</button> 
+                 </Link>
                 </div>
                
                 </div>

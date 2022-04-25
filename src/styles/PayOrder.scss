@@ -1,0 +1,104 @@
+@import "vars";
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 62.5%;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+.pay-order-container{
+    display: inline-block;
+    max-height: 900px;
+}
+.card-images{
+    display: flex;
+    flex-direction: row;
+}
+.card-images img{
+    width: 112px;
+    height: 112px;
+    border-radius: 90px;
+    margin-right: 32px;
+    cursor: pointer;
+    position: relative;
+    right: 4px;
+    bottom: 5px;
+}
+.card-images button{
+    height: 122px;
+    width: 122px;
+    border-radius: 90px;
+    margin-right: 32px;
+    border-style: none;
+    background-color: var(--bgprimary);
+    position: relative;
+    bottom: 618px;
+    left: 768px;
+}
+.card-images button:hover{
+    border: solid var(--brown) 3px;
+}
+.payment-info{
+    position: relative;
+    width: 900px;
+    height: 900px;
+    bottom: 612px;
+    left: 562px;
+    display: flex;
+}
+.payment-info label{
+    font-size: 1rem;
+    position: absolute;
+}
+.payment-info input{
+    width: 282px;
+    height: 42px;
+    border-radius: 18px;
+    border-style: none;
+    padding: 2px;
+    margin-bottom: 62px;
+    margin-right: 192px;
+    padding-left: 6px;
+    position: relative;
+}
+.payment-info select{
+    height: 42px;
+    width: 282px;
+    border-radius: 18px;
+    border-style: none;
+    padding: 8px;
+    margin-bottom: 62px;
+    margin-right: 198px;
+    position: relative;
+}
+.titular-input{
+    top: 32px;
+}
+.titual-label{
+    left: 6px;
+}
+.number-input{
+    bottom: 82px;
+    left: 522px;
+}
+.number-label{
+    left: 528px;
+}
+.mes-input{
+    bottom: 52px;
+    left: 522px;
+}
+.fecha-label{
+    left: 532px;
+    top: 152px;
+}
+.cvv-input{
+    bottom: 166px;
+}
+.cvv-label{
+    left: 6px;
+    top: 152px;
+}
+.all-buttons-container{
+    display: flex;
+}

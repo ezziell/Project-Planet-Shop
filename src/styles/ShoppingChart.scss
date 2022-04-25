@@ -33,6 +33,7 @@ body{
     background-color: var(--bgprimary);
     overflow-y: scroll;
     font-size: 2rem;
+    margin-top: 0;
 }
 hr{
     background-color: rgb(182, 182, 182);
@@ -41,8 +42,9 @@ hr{
 }
 .shopping-total-chart{
     background-color: var(--bgprimary);
+    height: 272px;
     position: absolute;
-    bottom: 100px;
+    bottom: 18px;
 }
 .shopping-total-chart span{
     font-size: 1.1rem;

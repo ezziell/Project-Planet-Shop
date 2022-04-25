@@ -7,7 +7,7 @@ const Home = () => {
      <body>
          <div className='container'>
              <span>CUIDAR EL </span>  
-             <span>MEDIOAMBIENTE</span>
+             <span className='medioambiente'>MEDIOAMBIENTE</span>
              <span>NUNCA FUE TAN FÁCIL</span>     
              <button>
                  <Link to="/AboutUs">

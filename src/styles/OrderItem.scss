@@ -4,6 +4,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 62.5%;
     background-color: var(--bgprimary);
+    overflow-x: hidden;
 }
 .item-container{
     display: flex;

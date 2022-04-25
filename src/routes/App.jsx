@@ -23,6 +23,10 @@ import Chart from '../components/Chart';
 import ProgressBar from '../components/ProgressBar';
 import StartOrder from '../pages/StartOrder';
 import SendOrder from '../pages/SendOrder';
+import PayOrder from '../pages/PayOrder';
+import OrderConfirm from '../pages/OrderConfirm';
+import ChartOrder from '../components/ChartOrder';
+import MiniOrder from '../components/MiniOrder';
 
 const App = () => {
     return(
@@ -50,6 +54,10 @@ const App = () => {
           <Route exact path='/ProgressBar' element={<ProgressBar />} />
           <Route exact path='/StartOrder' element={<StartOrder />} />
           <Route exact path='SendOrder' element={<SendOrder />} />
+          <Route exact path='/PayOrder' element={<PayOrder />} />
+          <Route exact path='OrderConfirm' element={<OrderConfirm />} />
+          <Route exact path='ChartOrder' element={<ChartOrder />} />
+          <Route exact path='MiniOrder' element={<MiniOrder/>} />
           <Route exact path="*" element={<Error404 />} />
           </Routes>
       </Layout>

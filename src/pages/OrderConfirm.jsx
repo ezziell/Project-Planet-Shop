@@ -1,5 +1,6 @@
 import React from 'react';
 import OrderBackround from '../containers/OrderBackround';
+import ChartOrder from '../components/ChartOrder';
 import "../styles/OrderConfirm.scss";
 
 const OrderConfirm = () => {
@@ -21,6 +22,9 @@ const OrderConfirm = () => {
                 </div>
                 <div className='carrito-confirm'>
                     <h3 className='chart-h3'>Carrito</h3>
+                    <div className='mini-chart-div'>
+                       <ChartOrder />  
+                    </div>
                 </div>
                 <div className='payment-confirm'>
                     <h3 className='payment-h3'>Método de pago</h3>

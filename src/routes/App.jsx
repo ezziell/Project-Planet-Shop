@@ -27,6 +27,7 @@ import PayOrder from '../pages/PayOrder';
 import OrderConfirm from '../pages/OrderConfirm';
 import ChartOrder from '../components/ChartOrder';
 import MiniOrder from '../components/MiniOrder';
+import Congrats from '../pages/Congrats';
 
 const App = () => {
     return(
@@ -58,6 +59,7 @@ const App = () => {
           <Route exact path='OrderConfirm' element={<OrderConfirm />} />
           <Route exact path='ChartOrder' element={<ChartOrder />} />
           <Route exact path='MiniOrder' element={<MiniOrder/>} />
+          <Route exact path='/Congrats' element={<Congrats />} />
           <Route exact path="*" element={<Error404 />} />
           </Routes>
       </Layout>

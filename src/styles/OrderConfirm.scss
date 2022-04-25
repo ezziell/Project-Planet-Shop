@@ -50,7 +50,7 @@ body{
 }
 .payment-confirm{
     position: relative;
-    top: 112px;
+    bottom: 372px;
     font-size: 1rem;
 } 
 .total-price-confirm{
@@ -61,20 +61,28 @@ body{
     font-size: 1.2rem;
     font-weight: 100;
     position: relative;
-    top: 237px;
-    right: 248px;
     width: 100px;
+    bottom: 148px;
+    right: 268px;
 }
 .payment-p-confirm{
     font-size: 1.6rem;
     color: var(--brown);
     position: relative;
-    top: 205px;
-    left: 138px;
+    bottom: 181px;
+    left: 126px;
 }
 .payment-h3,
 .envio-h3,
 .chart-h3{
     color: var(--brown);
 }
-
+.chart-h3{
+    position: relative;
+    right: 88px;
+}
+.mini-chart-div{
+    width: 439px;
+    position: relative;
+    right: 88px;
+}

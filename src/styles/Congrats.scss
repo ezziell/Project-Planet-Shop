@@ -1,0 +1,53 @@
+@import "vars";
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+.check-mark{
+    display: flex;
+    justify-content: center;
+}
+.check-mark img{
+    width: 182px;
+    height: 182px;
+    position: relative;
+    left: 22px;
+}
+.congrats-order{
+    position: relative;
+    bottom: 562px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+.congrats-title{
+    font-size: 2.3rem;
+    color: var(--brown);
+    position: relative;
+    left: 52px;
+}
+.congrats-p{
+    font-size: 1.1rem;
+    color: var(--grey);
+    width: 602px;
+    position: relative;
+    left: 52px;
+    bottom: 22px;
+}
+.congrats-btn{
+    border-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    height: 48px;
+    width: 162px;
+    font-size: 1.1rem;
+    border-radius: 18px;
+    cursor: pointer;
+    background-color: var(--green);
+    color: var(--white);
+    letter-spacing: 0.4px;
+}
+.congrats-btn:hover{
+    border: solid 1px var(--brown);
+}

@@ -12,8 +12,8 @@ const OrderItem = () => {
                 </div>
                 <div className='item-info'>
                     <p>Velas eco-friendly</p>
-                    <span>Talle s, </span>
-                    <span>color rojo</span>
+                    <span className='talle-order-p'>Talle s, </span>
+                    <span className='color-order-p'>color rojo</span>
                 </div>
             </div>
         </body>

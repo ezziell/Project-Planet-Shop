@@ -5,3 +5,15 @@ body{
     font-size: 62.5%;
     box-sizing: border-box;
 }
+.mini-container-chart{
+    height: 372px;
+    background-color: var(--bgprimary);
+    overflow-y: scroll;
+    font-size: 2rem;
+}
+.mini-products{
+  width: 422px;
+  height: 98px;
+  border-radius: 18px;
+  margin: 0;
+}

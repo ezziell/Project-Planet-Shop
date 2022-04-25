@@ -4,4 +4,48 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 62.5%;
     box-sizing: border-box;
+    margin: 0;
+}
+.mini-item-container{
+    display: flex;
+    background-color: var(--white);
+    border-radius: 8px;
+    width: 422px;
+    height: 98px;
+    filter: drop-shadow(0.75rem 0 0.75rem rgb(216, 216, 216));
+    margin-bottom: 18px;
+}
+.mini-item-image figure img{
+    height: 78px;
+    width: 78px;
+    object-fit: cover;
+    border-radius: 8px;
+    position: relative;
+    bottom: 7px;
+}
+.mini-item-info{
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.mini-item-info p{
+    font-weight: 600;
+    color: var(--brown);
+    position: relative;
+    top: 8px;
+    right: 42px;
+}
+.mini-item-info span{
+    color: var(--grey);
+    font-size: 0.8rem;
+    font-weight: 100;
+}
+.talle-mini,
+.color-mini{
+    display: inline-block;
+    position: relative;
+    bottom: 8px;
+    right: 39px;
+}
+.mini-container{
+    background-color: var(--bg-primary);
 }

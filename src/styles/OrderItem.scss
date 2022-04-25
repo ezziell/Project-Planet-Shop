@@ -38,14 +38,10 @@ body{
     font-size: 0.8rem;
     font-weight: 100;
 }
-.item-info span:nth-child(2){
+.talle-order-p,
+.color-order-p{
+    display: inline-block;
     position: relative;
-    right: 60px;
-    width: 38px;
-    bottom: 6px;
-}
-.item-info span:nth-child(3){
-    position: relative;
-    bottom: 27px;
-    right: 176px;
+    bottom: 8px;
+    right: 40px;
 }

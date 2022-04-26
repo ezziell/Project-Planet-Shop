@@ -26,21 +26,22 @@ const ShoppingChart = () => {
                     <div className='imported-chart'>
                         <Chart />
                     </div>
-                <hr />
+                <hr className='chart-hr-1'/>
                  <div className='shopping-total-chart'>
-                 <span>Subtotal</span> 
-                 <span>$433</span>
+                 <span className='subtotal'>Subtotal</span> 
+                 <span className='chart-price'>$433</span>
                  <br />
-                 <span>Envío</span>
-                 <span>$123</span>
-                 <hr />
-                 <span>Total</span>
-                 <span>$556</span>
-                 <Link to="/StartOrder">
-                    <button type='submit' className='order'>Ordenar pedido</button> 
-                 </Link>
+                 <span className='chart-send'>Envío</span>
+                 <span className='send-price'>$123</span>
+                 <hr className='chart-hr-2'/>
                 </div>
-               
+                <div className='chart-total-div'>
+                 <span className='chart-total'>Total</span>
+                 <span className='chart-total-price'>$556</span>
+                 </div>
+                <Link to="/StartOrder">
+                    <button type='submit' className='order-chart'>Ordenar pedido</button> 
+                 </Link>
                 </div>
             </div>
         </body>

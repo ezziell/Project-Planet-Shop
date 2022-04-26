@@ -46,58 +46,49 @@ hr{
     position: absolute;
     bottom: 18px;
 }
-.shopping-total-chart span{
-    font-size: 1.1rem;
-    font-weight: 100;
-}
-.shopping-total-chart span:nth-child(1),
-.shopping-total-chart span:nth-child(4) {
-    color: var(--grey);
-    position: relative;
-}
-.shopping-total-chart span:nth-child(1){
-    right: 530px;
-    top: 6px;
-}
-.shopping-total-chart span:nth-child(4){
-    right: 407px;
-    bottom: 18px;
-}
-.shopping-total-chart span:nth-child(2),
-.shopping-total-chart span:nth-child(5){
-    color: var(--brown);
-    font-weight: 800
-}
-.shopping-total-chart span:nth-child(2){
-    position: relative;
-    bottom: 26px;
-    left: 788px;
-}
-.shopping-total-chart span:nth-child(5){
-    position: relative;
-    left: 777px;
-    width: 100px;
-    bottom: 45px;
-}
-.shopping-total-chart span:nth-child(7), 
-.shopping-total-chart span:nth-child(8){
-    color: var(--brown);
-    display: inline;
+.chart-total-div span{
     font-size: 1.4rem;
-    font-weight: 800;
-}
-.shopping-total-chart span:nth-child(7){
-    margin-right: 100px;
     position: relative;
-    left: 22px;
-    top: 18px;
 }
-.shopping-total-chart span:nth-child(8){
+.shopping-total-chart span{
     position: relative;
-    left: 658px;
-    top: 18px;
+    font-size: 1.1rem;
 }
-.order{
+.chart-hr-2{
+    width: 900px;
+}
+.subtotal,
+.chart-send{
+  color: var(--grey);
+  font-weight: 100;
+}
+.subtotal{
+    position: relative;
+    right: 522px;
+    top: 22px;
+}
+.send-price{
+    bottom: 27px;
+    left: 300px;
+}
+.chart-send{
+    position: relative;
+    right: 399px;
+}
+.chart-price{
+   bottom: 4px;
+   font-weight: bold;
+   left: 300px;
+}
+.chart-total{
+    bottom: 71px;
+    right: 522px;
+}
+.chart-total-price{
+    left: 300px;
+    bottom: 102px;
+}
+.order-chart{
     background-color: var(--green);
     border-style: none;
     font-family: 'Times New Roman', Times, serif;
@@ -108,7 +99,10 @@ hr{
     padding: 8px;
     border-radius: 12px;
     position: relative;
-    top: 82px;
-    left: 528px;
+    left: 378px;
     cursor: pointer;
+    bottom: 52px;
+}
+.order-chart:hover{
+    border: solid 1px var(--brown);
 }

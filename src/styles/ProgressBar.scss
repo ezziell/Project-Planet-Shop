@@ -4,14 +4,36 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 62.5%;
 }
-.form-step{
-    font-size: 1.2rem;
-    display: flex;
-    justify-content: center;
+.progressbar{
+    width: 582px;
+    position: relative;
+    bottom: 1200px;
 }
-.btns-group{
-    display: flex;
-}
+.progress {
+    position: relative;
+    display: inline-block;
+    content: "";
+    height: 6px;
+    position: absolute;
+    transform: translateY(-50%);
+    width: 508px;
+    background-color: var(--green);
+    left: 666px;
+    top: 22px;
+  }
+
+  .progress-step{
+      width: 88px;
+      height: 88px;
+      background-color: var(--green);
+      border-radius: 50%;
+      position: relative;
+      display: inline-block;
+      margin-right: 52px;
+      bottom: 22px;
+      left: 666px;
+  }
+
 .btn{
     height: 28px;
     width: 98px;
@@ -29,6 +51,9 @@ body{
 }
 .btn-back{
     background-color: var(--brown);
+}
+.btn-next{
+    left: 1042px;
 }
 .btn:hover{
     box-shadow: 0 0 0 2px var(--white), 0 0 0 3px var(--green);

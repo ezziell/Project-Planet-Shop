@@ -13,6 +13,8 @@ body{
 .card-images{
     display: flex;
     flex-direction: row;
+    position: relative;
+    right: 68px;
 }
 .card-images img{
     width: 112px;

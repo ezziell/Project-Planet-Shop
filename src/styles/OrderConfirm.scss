@@ -21,8 +21,11 @@ body{
 }
 .elegir-botones{
     display: flex;
+    position: relative;
+    bottom: 28px;
+    right: 28px;
 }
-.delivery-button{
+.delivery-button-confirm{
     height: 32px;
     width: 122px;
     font-family: 'Times New Roman', Times, serif;
@@ -30,9 +33,13 @@ body{
     border-radius: 12px;
     border-style: none;
     cursor: pointer;
+    background-color: var(--white);
+    color: var(--brown);
+    font-size: 0.9rem;
 }
-.delivery-button:hover{
-    border: 2px solid var(--green);
+.delivery-button-confirm:hover{
+    border: solid var(--brown) 2px;
+    background-color: var(--white);
 }
 .confirm-direc-p{
     color: var(--brown);
@@ -62,14 +69,14 @@ body{
     font-weight: 100;
     position: relative;
     width: 100px;
-    bottom: 148px;
+    bottom: 188px;
     right: 268px;
 }
 .payment-p-confirm{
     font-size: 1.6rem;
     color: var(--brown);
     position: relative;
-    bottom: 181px;
+    bottom: 220px;
     left: 126px;
 }
 .payment-h3,

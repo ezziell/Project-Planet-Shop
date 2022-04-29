@@ -11,8 +11,8 @@ const OrderConfirm = () => {
                 <div className='delivery-div'>
                     <h3 className='envio-h3'>Envío</h3>
                     <div className='elegir-botones'>
-                    <button className='delivery-button free'>Envío gratis</button>
-                    <button className='delivery-button express'>Envío express</button>
+                    <button className='delivery-button-confirm'>Envío gratis</button>
+                    <button className='delivery-button-confirm'>Envío express</button>
                     </div>
                     <p className='confirm-direc-p'>
                        Calle example

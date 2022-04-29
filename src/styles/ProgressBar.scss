@@ -4,24 +4,41 @@ body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 62.5%;
 }
+.form{
+    height: 2000px;
+    overflow-y: scroll;
+}
+.height-of-progress{
+    height: 4600px;
+}
+.progress-back{
+    position: relative;
+    z-index: 1;
+    background-color: var(--white);
+    bottom: 1238px;
+    height: 128px;
+    width: 1374px;
+    left: 282px;
+}
 .progressbar{
     width: 582px;
     position: relative;
-    bottom: 1200px;
+    bottom: 1344px;
+    z-index: 3;
 }
 .progress {
     position: relative;
     display: inline-block;
     content: "";
     height: 6px;
-    position: absolute;
+    position: relative;
     transform: translateY(-50%);
     width: 508px;
     background-color: var(--green);
     left: 666px;
-    top: 22px;
+    z-index: 2;
+    bottom: 4200px;
   }
-
   .progress-step{
       width: 88px;
       height: 88px;
@@ -30,31 +47,156 @@ body{
       position: relative;
       display: inline-block;
       margin-right: 52px;
-      bottom: 22px;
+      bottom: 92px;
       left: 666px;
+      z-index: 2;
   }
-
-.btn{
-    height: 28px;
-    width: 98px;
+  .progress-step-active{
+      background-color: var(--brown);
+  }
+  .progressbar-information{
+      display: flex;
+      color: var(--brown);
+      font-size: 0.9rem;
+      position: relative;
+      bottom: 1444px;
+      left: 678px;
+      z-index: 4;
+  }
+  .form-p{
+      margin-right: 68px;
+  }
+  .form-p:nth-child(1){
+      position: relative;
+      right: 8px;
+  }
+  .form-p:nth-child(2){
+    position: relative;
+    left: 4px;
+}
+.form-p:nth-child(3){
+    position: relative;
+    left: 14px;
+}
+.form-p-active{
+    font-weight: bold;
+}
+.progress-pictures{
+    display: flex;
+    position: relative;
+    bottom: 4548px;
+    left: 672px;
+    z-index: 4;
+}
+.progress-pictures img{
+    width: 58px;
+    height: 58px;
+    object-fit: cover;
+    position: relative;
+    margin-right: 82px;
+}
+.progress-pictures img:nth-child(1){
+    left: 12px;
+    top: 14px;
+}
+.progress-pictures img:nth-child(2){
+    left: 9px;
+    top: 16px;
+}
+.progress-pictures img:nth-child(3){
+    width: 38px;
+    height: 38px;
+    top: 26px;
+    left: 18px;
+}
+.progress-pictures img:nth-child(4){
+    left: 28px;
+    top: 18px;
+}
+.btns-group1{
+    position: relative;
+    bottom: 900px;
+    display: flex;
+}
+  .btns-group2{
+     position: relative;
+     bottom: 1512px;
+     display: flex;
+}
+.btns-group3{
+    position: relative;
+    bottom: 2488px;
+    display: flex;
+}
+.btns-group4{
+    position: relative;
+    bottom: 3302px;
+}
+.btn-1{
+    height: 32px;
+    width: 102px;
+    padding-top: 8px;
     text-align: center;
     color: var(--white);
     background-color: var(--green);
-    padding: 8px;
     border-radius: 12px;
     display: flex;
     justify-content: center;
-    cursor: pointer;
     text-decoration: none;
     transition: 0.3px;
-    margin-right: 32px;
+    font-size: 1rem;
+    position: relative;
+    bottom: 10px;
+    margin-left: 472px;
 }
-.btn-back{
+.btn{
+    height: 32px;
+    width: 102px;
+    padding-top: 8px;
+    text-align: center;
+    color: var(--white);
+    background-color: var(--green);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    transition: 0.3px;
+    font-size: 1rem;
+    position: relative;
+    left: 322px;
+    top: 38px;
+    margin-bottom: 12px;
+}
+.btn-prev{
     background-color: var(--brown);
+    margin-right: 372px;
+    cursor: pointer;
 }
 .btn-next{
     left: 1042px;
+    cursor: pointer;
 }
 .btn:hover{
     box-shadow: 0 0 0 2px var(--white), 0 0 0 3px var(--green);
 }
+.edit-envio-div{
+    position: relative;
+    bottom: 842px;
+}
+.edit-payment-div{
+    position: relative;
+    bottom: 1454px;
+}
+.confirmation-div{
+    position: relative;
+    bottom: 2428px;
+}
+.form-step {
+    display: none;
+    transform-origin: top;
+    animation: animate 0.5s;
+  }
+  
+  .form-step-active {
+    display: block;
+  }

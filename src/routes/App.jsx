@@ -20,7 +20,6 @@ import ProductDetail from '../pages/ProductDetail';
 import Error404 from '../pages/error404';
 import OrderBackround from '../containers/OrderBackround';
 import Chart from '../components/Chart';
-import ProgressBar from '../components/ProgressBar';
 import StartOrder from '../pages/StartOrder';
 import SendOrder from '../pages/SendOrder';
 import PayOrder from '../pages/PayOrder';
@@ -52,7 +51,6 @@ const App = () => {
           <Route exact path='/ProductDetail' element={<ProductDetail />} />
           <Route exact path='/OrderBackround' element={<OrderBackround />} />
           <Route exact path='/Chart' element={<Chart />} />
-          <Route exact path='/ProgressBar' element={<ProgressBar />} />
           <Route exact path='/StartOrder' element={<StartOrder />} />
           <Route exact path='SendOrder' element={<SendOrder />} />
           <Route exact path='/PayOrder' element={<PayOrder />} />

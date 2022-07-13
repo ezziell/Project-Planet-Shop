@@ -1,7 +1,12 @@
 import React from 'react';
 import "../styles/OrderItem.scss";
 
-const OrderItem = () => {
+fetch('https://fakestoreapi.com/products')
+            .then(res=>res.json())
+            .then(json=>console.log(json)) 
+
+const OrderItem = ({product}) => {
+
     return(
         <body>
             <div className='item-container'>
@@ -11,7 +16,7 @@ const OrderItem = () => {
                     </figure>
                 </div>
                 <div className='item-info'>
-                    <p>Velas eco-friendly</p>
+                    <p>{product.title}</p>
                     <span className='talle-order-p'>Talle s, </span>
                     <span className='color-order-p'>color rojo</span>
                 </div>
